@@ -1,3 +1,11 @@
+/* .colorf {
+  background-color: #0c3e11;
+  color: black;
+Con una clase de esta forma, añadiendo la clase al body en la tabla, 
+permanecía la imagen de fondo, solo cambiaba el color de la letra
+
+} */
+
 body {
     text-align: center;
     font-size: 25px;
@@ -12,8 +20,18 @@ body {
         src: url(font/Breaking Bad.ttf);
      }
 }
-    
-#imagen1{
+
+body:not(.color) {
+  background-image: none;
+  background-color: #0c3e11; 
+  color: black;
+  /* color de fondo y letra negra solo para la tabla periódica porque he intentado añadir una clase
+   y no me toma el color de fondo y con un div se queda una franja alrededor en la que se ve la imagen.
+  He buscado y rebuscado porque no ponía el color con el background de ninguna forma
+  y he encontrado esta forma extraña, que además funciona al revés de como me esperaba */
+}
+  
+#imagen1 {
         width: 200px;
         height: 200px ;
         border: 3px outset black;
@@ -28,11 +46,8 @@ border:10px outset brown;
 border-radius: 22px;
 }
 
-div {
-background-color: #0c3e11;
-color: black;
 
-} 
+
 .imgtablas {
     width: 40px;
     height: 40px;
