@@ -27,8 +27,8 @@ body:not(.color) {
   color: black;
   /* color de fondo y letra negra solo para la tabla periódica porque he intentado añadir una clase
    y no me toma el color de fondo y con un div se queda una franja alrededor en la que se ve la imagen.
-  He buscado y rebuscado porque no ponía el color con el background de ninguna forma
-  y he encontrado esta forma extraña, que además funciona al revés de como me esperaba */
+  He buscado y rebuscado porque no ponía el color con el background de ninguna manera
+  y he encontrado esta forma extraña que ha funcionado */
 }
   
 #imagen1 {
