@@ -1,0 +1,127 @@
+body {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background-image: url("Img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Breaking B';
+  
+     @font-face {
+        font-family: 'Breaking B';
+        src: url(Font/Breaking Bad.ttf);
+     }
+}
+    
+#imagen1{
+        width: 200px;
+        height: 200px ;
+        border: 3px outset black;
+        
+        }
+
+
+#logo {
+width: 700px;
+height: 300px;
+border:10px outset brown;
+border-radius: 22px;
+}
+
+div {
+background-color: #0c3e11;
+color: black;
+
+} 
+.imgtablas {
+    width: 40px;
+    height: 40px;
+
+}
+
+table {
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+    border: 3px;
+    border-color: black;
+    border-collapse: collapse;
+    font-family: Helvetica;
+    
+     
+}
+
+.negro {
+    background-color: black;
+  }
+  
+  .verdeAb {
+    background-color: #c2c62a;
+
+  }
+.amarilloAb {
+  background-color: #d5eb70;
+
+}
+
+.gris {
+  background-color: #bcc49f;
+
+}
+
+.verde1 {
+  background-color: #818d4b;
+
+}
+
+.verde2 {
+
+  background-color: #637126;
+}
+
+.verde3 {
+  background-color: #c4e349;
+
+}
+
+.verde4 {
+  background-color: #828e50;
+ 
+}
+
+.verde5{
+
+  background-color: #b7da28
+
+}
+
+.white {
+
+  background-color: white;
+}
+
+.formulariofont{
+font-family: Helvetica;
+color: white;
+font-size=14px;
+
+
+}
+.formulario {
+font-family: Helvetica;
+font-size: 12px;
+color: white;
+}
+
+
+td {
+  border: black 5px solid;
+  width: 60px;
+  height: 60px;
+}
+
+tr {
+  border: black 5px solid;
+  width: 60px;
+  height: 60px;
+}
