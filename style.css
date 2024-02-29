@@ -11,8 +11,12 @@ body {
     font-size: 25px;
     color: white;
     background-image: url("img/fondo.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% 100%;
+    background-attachment: fixed;
+
     font-family: 'Breaking B';
   
      @font-face {
@@ -130,7 +134,7 @@ width: 500px;
 height: 500px;
 align: center;
 margin: auto;
-
+background: fixed;
 
 }
 
